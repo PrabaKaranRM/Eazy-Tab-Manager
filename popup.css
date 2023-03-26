@@ -1,0 +1,143 @@
+@font-face {
+    font-family: Futura;
+    src:local("./Futura Bold font.ttf");
+}
+
+
+body {
+    min-width: 400px;
+  font-family: Futura;
+    padding: 20px;
+    font-family: sans-serif;
+    background-color: #333;
+    color: #fff;
+    
+  }
+
+#search-input{
+    width: 70%;
+    height: 30px;
+}
+
+
+#search-btn{
+    width: 25%;
+   margin-left: 2%;
+    height: 35px;
+    background-color: #4BB543;
+    color: #fff;
+    font-weight: bold;
+    border: none;
+    border-radius: 4px;
+}
+  
+.tab{
+    color:#0280F8
+}
+
+  h1 {
+    margin-top: -5%;
+    margin-bottom: 20px;
+    font-size: 30px;
+    
+  }
+  
+a{
+    color: #fff !important;
+ text-decoration: none;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.auth{
+    float: right;
+    font-style: none;
+    margin-top: 3%;
+}
+
+
+.praba{
+    color: #0280F8;
+}
+
+  #tab-list {
+    margin-bottom: 20px;
+    list-style: none;
+    padding: 0;
+    max-height: 300px;
+    overflow-y: auto;
+    font-style: none;
+  }
+  
+  #tab-list li {
+    margin-bottom: 10px;
+    padding: 10px;
+    background-color: #494949;
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    
+  }
+  
+  #tab-list li img {
+    width: 16px;
+    height: 16px;
+    margin-right: 10px;
+  }
+  
+  #tab-list li:hover {
+    background-color: #3b3b3b;
+  }
+  
+  #tab-list li button {
+    margin-left: auto;
+    background-color: #e74c3c;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    padding: 4px 10px;
+    font-size: 14px;
+    cursor: pointer;
+  }
+  
+  #tab-list li button:hover {
+    background-color: #c0392b;
+  }
+  
+  #search-bar {
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 5px 10px;
+    font-size: 16px;
+    border-radius: 4px;
+    border: none;
+
+  }
+  
+  #close-all-btn {
+    background-color: #e74c3c;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    padding: 13px 20px;
+    font-size: 14px;
+    cursor: pointer;
+  }
+  
+  #close-all-btn:hover {
+    background-color: #c0392b;
+  }
+
+
+  p{
+    font-size: 16px;
+    
+  }
+
+  #tab-count{
+    font-weight: bold;
+    color: #4BB543;
+    font-size: 18px;
+  }
+  

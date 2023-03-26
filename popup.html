@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline' https://code.jquery.com; img-src 'self' data:">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="author" content="Praba R M">
+  <meta name="description" content="Eazy Tab Manager - user friendly">
+  <title>Eazy Tab Manager Extension</title>
+  <link rel="stylesheet" href="popup.css">
+</head>
+
+<body>
+  <div class="container">
+    <h1><span><img src="./eazy.png"></span><span class="tab">Tab</span> Manager</h1>
+    <p>Total tabs: <span id="tab-count"></span></p>
+    <div class="search-container">
+      <input type="text" id="search-input" placeholder="Search...">
+      <button id="search-btn">Search</button>
+    </div>
+    <ul id="tab-list"></ul>
+    <button id="close-all-btn">Close All Tabs</button>
+    <span><a href="https://www.instagram.com/praba_r_m/" target="_blank" class="auth">Author :<span class="praba"> Praba R M </span></a></span>
+  </div>
+  <script src="popup.js"></script>
+</body>
+
+</html>
